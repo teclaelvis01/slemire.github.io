@@ -11,19 +11,20 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
+theme: jekyll-theme-minimal
 remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
 minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "snowscan.io"
+locale                   : "es-ES"
+title                    : "elvisreyes.com"
 title_separator          : "-"
-name                     : "Snowscan"
-description              : "Posts about security, CTFs and networking"
-url                      : "https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Elvis Reyes"
+description              : "Developer, Ing Sistemas"
+url                      : "https://elvisreyes.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "slemire/slemire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-logo                     : "/assets/images/masthead.png"
+logo                     : "/assets/images/favicon-32x32.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -93,7 +94,8 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  # provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-145129883-1"
     anonymize_ip         : false # (default)
@@ -101,12 +103,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Snowscan"
-  avatar           : "/assets/images/avatar.png"
-  bio              : "Pentester, CTF player<br>HackTheBox ATeam"
-  location         : "Canada"
-  email            : "info@snowscan.io"
-  uri              :
+  name             : "Elvis Reyes"
+  avatar           : "/assets/images/me.e9c691ad.jpg"
+  bio              : "Developer, Fullstack <br> Ing. Sistemas"
+  location         : "Venezuelan"
+  email            : "info@elvisreyes.com"
+  uri              : "https://www.elvisreyes.com/"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -114,23 +116,23 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "slemire"
+  github           : "teclaelvis01"
   gitlab           :
   google_plus      :
-  keybase          : "snowscan"
-  instagram        :
+  keybase          : "teclaelvis01"
+  instagram        : "https://www.instagram.com/teclaelvis01/"
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "teclaelvis01" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "5186164/elvis-reyes" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "snowscan"
+  twitter          : "teclaelvis"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/teclaelvis" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
